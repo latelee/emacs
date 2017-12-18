@@ -1,0 +1,44 @@
+2012-02-22
+下载windows版本emacs，版本为23.4.1
+
+
+安装cedet
+步骤：
+在emacs中打开cedet-build.el文件，然后
+M-x eval-buffer
+M-x cedet-build-in-default-emacs
+编译过程中如果发生超过emacs堆栈大小的错误，退出emacs再重新编译即可。
+
+出错：
+defvar: Symbol's value as variable is void: cedet-menu-map
+
+1.检出cedet：
+bzr checkout bzr://cedet.bzr.sourceforge.net/bzrroot/cedet/code/trunk cedet
+(需安装bzr)
+安装过程提示创建.srecode，选择y
+
+2.在emacs中打开cedet-build.el文件，然后
+M-x eval-buffer
+M-x cedet-build-in-default-emacs
+
+cedet只保留common目录，看看会不会出错
+
+
+ecb：CVS下载，放到site-lisp，在配置文件中指定目录、文件，不用安装
+cvs -z3 -d:pserver:anonymous@ecb.cvs.sourceforge.net:/cvsroot/ecb co -P ecb
+
+
+
+
+cscope:
+代码根目录：
+find . -name "*.[c|cpp|h]" -print >cscope.files
+
+C-c s a 设定初始化的目录，一般是代码的根目录
+C-c s L 
+
+
+
+字体及大小：
+用m-x describe-font查看，将其写到配置文件中，如
+(set-default-font "-outline-Courier New-normal-normal-normal-mono-16-*-*-*-c-*-iso8859-1")
