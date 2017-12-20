@@ -30,6 +30,7 @@ cvs -z3 -d:pserver:anonymous@ecb.cvs.sourceforge.net:/cvsroot/ecb co -P ecb
 
 
 
+
 cscope:
 代码根目录：
 find . -name "*.[c|cpp|h]" -print >cscope.files
@@ -46,3 +47,6 @@ C-c s L
 2017.12.20
 添加git-emacs。
 来源：https://github.com/tsgates/git-emacs
+
+yaml-mode支持：
+https://github.com/yoshiki/yaml-mode

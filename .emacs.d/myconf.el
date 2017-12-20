@@ -13,6 +13,16 @@
 (add-to-list 'load-path "D:/emacs/site-lisp/git-emacs/")
 (require 'git-emacs)
 
+;; mark down
+(autoload 'markdown-mode "markdown-mode.el"  
+"Major mode for editing Markdown files" t)  
+(setq auto-mode-alist  
+(cons '(".markdown" . markdown-mode) auto-mode-alist))
+
+;; yaml support
+(require 'yaml-mode)
+(add-to-list 'auto-mode-alist '("\\.yml\\'" . yaml-mode))
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 (custom-set-variables
   ;; custom-set-variables was added by Custom.
