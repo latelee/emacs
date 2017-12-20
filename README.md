@@ -1,4 +1,4 @@
-# windows平台emacs配置工程。
+# windows平台emacs配置工程
 
 ## 1、如何使用？
 下载emacs的windows版本，然后下载本工程，将工程所有目录、文件拷贝到emacs安装目录。
@@ -8,8 +8,22 @@
 emacs下载地址：
 http://ftp.gnu.org/gnu/emacs/windows/
 
-## 2、emacs使用入门
+
+## 2、这个emacs配置有什么功能？
+
+## 3、效果图
+
+## 4、详细使用说明
+
 
 
 ## 作者
-李迟 Late Lee<li@latelee.org>
+李迟 Late Lee <li@latelee.org>
+
+## 欢迎捐赠
+如果对阁下有帮助，欢迎捐赠：
+BTC: 3PcceSHJaLwkEZxEBCJpuY1wV7kg95DDpw
+LTC: Lb7aba56rHeKihxjg7P5SDT49Yv3i1Upeq
+ZEC: t1dpDT8wSsq5aWFLQqB52TJsKDBBoc8fBHR
+ETH: 0x778e4f8c2a8cf93b21022dac5981394ea3113155
+USDT:17Dq5pQAPrESTY3s4qvXzijkdgtZGHKZrj

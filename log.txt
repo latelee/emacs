@@ -42,3 +42,7 @@ C-c s L
 字体及大小：
 用m-x describe-font查看，将其写到配置文件中，如
 (set-default-font "-outline-Courier New-normal-normal-normal-mono-16-*-*-*-c-*-iso8859-1")
+
+2017.12.20
+添加git-emacs。
+来源：https://github.com/tsgates/git-emacs

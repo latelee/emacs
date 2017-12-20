@@ -75,7 +75,7 @@
 
 ;;; it is useful when using doxymacs
 (setq user-full-name "Late Lee")
-(setq user-mail-address "latelee@163.com")
+(setq user-mail-address "li@latelee.org")
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
