@@ -1,3 +1,4 @@
+
 # windows平台emacs配置工程
 
 ## 1、如何使用？
@@ -9,14 +10,19 @@
 emacs下载地址：
 http://ftp.gnu.org/gnu/emacs/windows/
 
+## 能用在哪些平台？
+目前只在windows下使用，其它平台的支持后续将添加。
 
-## 2、这个emacs配置有什么功能？
+## 支持哪些版本的emacs？
+* emacs 23.4
 
-** 支持yaml文件（后缀名为yml或yaml）
+## 这个emacs配置有什么功能？
+* 支持yaml文件（后缀名为yml或yaml）
 
-## 3、效果图
+## 效果图
+TODO
 
-## 4、详细使用说明
+## 详细使用说明
 参考usage.txt文件
 
 
@@ -26,8 +32,12 @@ http://ftp.gnu.org/gnu/emacs/windows/
 
 ## 欢迎捐赠
 如果对阁下有帮助，欢迎捐赠：
-BTC: 3PcceSHJaLwkEZxEBCJpuY1wV7kg95DDpw \n
-LTC: Lb7aba56rHeKihxjg7P5SDT49Yv3i1Upeq \n
-ZEC: t1dpDT8wSsq5aWFLQqB52TJsKDBBoc8fBHR \n
-ETH: 0x778e4f8c2a8cf93b21022dac5981394ea3113155 \n
-USDT:17Dq5pQAPrESTY3s4qvXzijkdgtZGHKZrj \n
+BTC: 3PcceSHJaLwkEZxEBCJpuY1wV7kg95DDpw
+
+LTC: Lb7aba56rHeKihxjg7P5SDT49Yv3i1Upeq
+
+ZEC: t1dpDT8wSsq5aWFLQqB52TJsKDBBoc8fBHR
+
+ETH: 0x778e4f8c2a8cf93b21022dac5981394ea3113155
+
+USDT:17Dq5pQAPrESTY3s4qvXzijkdgtZGHKZrj
